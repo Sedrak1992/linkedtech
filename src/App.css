@@ -12,7 +12,42 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.menyo{
+  display: flex;
+  background:#fff;
+  justify-content: space-between;
+}
+.menyo img {
+  height: 100%;
+}
+.uli{
+  list-style: none;
+  display: flex;
+}
+.uli li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 10px;
+  color: black;
+  border-bottom: 2px solid transparent;
+  
+}
+.uli > li{
+  display: flex;
+  align-items: center;
+}
 
+.uli li a:hover{
+  border-bottom: 3px solid black;
+}
+.ikoka{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.ikoka > div {
+  margin: 0 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
