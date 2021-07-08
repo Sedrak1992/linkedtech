@@ -1,11 +1,15 @@
+import Container from "@material-ui/core/Container";
 import "./App.css";
 import Header from "./Header";
-
+import Exciting from "./Exciting";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Container>
+        <Header />
+        <Exciting />
+      </Container>
     </div>
   );
 }

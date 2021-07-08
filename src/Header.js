@@ -2,14 +2,12 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import PersonOutlineOutlinedIcon from "@material-ui/icons/PersonOutlineOutlined";
-import Container from "@material-ui/core/Container";
 import Badge from "@material-ui/core/Badge";
 import Diamond from "./linkedtech_img/10.jpg";
 
 function Header() {
   return (
     <div>
-      <Container>
         <header className="n">
           <nav className="menyo">
             <div>
@@ -56,7 +54,6 @@ function Header() {
             </div>
           </nav>
         </header>
-      </Container>
     </div>
   );
 }
