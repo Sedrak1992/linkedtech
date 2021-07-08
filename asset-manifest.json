@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/linkedtech/static/css/main.9b556a8b.chunk.css",
+    "main.js": "/linkedtech/static/js/main.2e12dc2b.chunk.js",
+    "main.js.map": "/linkedtech/static/js/main.2e12dc2b.chunk.js.map",
+    "runtime-main.js": "/linkedtech/static/js/runtime-main.48972593.js",
+    "runtime-main.js.map": "/linkedtech/static/js/runtime-main.48972593.js.map",
+    "static/js/2.f4cb161d.chunk.js": "/linkedtech/static/js/2.f4cb161d.chunk.js",
+    "static/js/2.f4cb161d.chunk.js.map": "/linkedtech/static/js/2.f4cb161d.chunk.js.map",
+    "index.html": "/linkedtech/index.html",
+    "static/css/main.9b556a8b.chunk.css.map": "/linkedtech/static/css/main.9b556a8b.chunk.css.map",
+    "static/js/2.f4cb161d.chunk.js.LICENSE.txt": "/linkedtech/static/js/2.f4cb161d.chunk.js.LICENSE.txt",
+    "static/media/9L_1.bf59625b.png": "/linkedtech/static/media/9L_1.bf59625b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48972593.js",
+    "static/js/2.f4cb161d.chunk.js",
+    "static/css/main.9b556a8b.chunk.css",
+    "static/js/main.2e12dc2b.chunk.js"
+  ]
+}
