@@ -49,7 +49,7 @@ h1 {
 .span2 {
   text-decoration: line-through;
 }
-.b > p  {
+.b > p {
   margin-bottom: 20px;
 }
 .b {
@@ -162,11 +162,11 @@ h1 {
 .Recent_Product img {
   width: 100%;
 }
-.Shopping{
+.Shopping {
   position: absolute;
   right: -20px;
   top: -21px;
-  border: 2px solid #F1F1F1;
+  border: 2px solid #f1f1f1;
   border-radius: 50%;
   display: flex;
   width: 44px;
@@ -174,36 +174,66 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-.div1{
+.Shopping1 {
+  border-radius: 50%;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background: #f3f8fb;
+  align-items: center;
+  justify-content: center;
+}
+.div1 {
   display: flex;
   background: #247cc0;
 }
-h2{
-width: 172px;
-height: 40px;
-left: 522px;
-top: 1118px;
+h2 {
+  width: 172px;
+  height: 40px;
+  left: 522px;
+  top: 1118px;
 
-font-family: Hind Siliguri;
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 40px;
-text-align: center;
-color: #030D15;
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  color: #030d15;
 }
-.standard{
+.standard {
   padding: 30px 15px;
 }
 .standard > p {
   padding-bottom: 20px;
 }
-.StarIcon{
+.StarIcon {
   margin-top: 10px;
 }
-.StarIcon1{
-  color: #C72535;
+.StarIcon1 {
+  color: #c72535;
 }
-.StarIcon11{
-  color: #F4F9FC;
+.StarIcon11 {
+  color: #f4f9fc;
+}
+.SpecialOffer {
+  width: 100%;
+  height: 333.08px;
+  margin-top: 160px;
+  display: flex;
+}
+
+.background {
+  width: 50%;
+  margin: 0 15px;
+  height: 296px;
+  background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+.today {
+  width: 249px;
+  height: 147px;
+  background: #008bf0;
+  margin: 0  !important;
 }

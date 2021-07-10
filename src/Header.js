@@ -8,52 +8,52 @@ import Diamond from "./linkedtech_img/10.jpg";
 function Header() {
   return (
     <div>
-        <header className="n">
-          <nav className="menyo">
+      <header className="n">
+        <nav className="menyo">
+          <div>
+            <img src={Diamond} />
+          </div>
+          <ul className="uli">
+            <li>
+              <a href="#">Home</a>
+              <ExpandMoreIcon />
+            </li>
+            <li>
+              <a href="#">About</a>
+              <ExpandMoreIcon />
+            </li>
+            <li>
+              <a href="#">Product</a>
+              <ExpandMoreIcon />
+            </li>
+            <li>
+              <a href="#">blog</a>
+              <ExpandMoreIcon />
+            </li>
+            <li>
+              <a href="#">shop</a>
+              <ExpandMoreIcon />
+            </li>
+            <li>
+              <a href="#">Contact us</a>
+              <ExpandMoreIcon />{" "}
+            </li>
+          </ul>
+          <div className="ikoka">
             <div>
-              <img src={Diamond} />
+              <SearchIcon />
             </div>
-            <ul className="uli">
-              <li>
-                <a href="#">Home</a>
-                <ExpandMoreIcon />
-              </li>
-              <li>
-                <a href="#">About</a>
-                <ExpandMoreIcon />
-              </li>
-              <li>
-                <a href="#">Product</a>
-                <ExpandMoreIcon />
-              </li>
-              <li>
-                <a href="#">blog</a>
-                <ExpandMoreIcon />
-              </li>
-              <li>
-                <a href="#">shop</a>
-                <ExpandMoreIcon />
-              </li>
-              <li>
-                <a href="#">Contact us</a>
-                <ExpandMoreIcon />{" "}
-              </li>
-            </ul>
-            <div className="ikoka">
-              <div>
-                <SearchIcon />
-              </div>
-              <div>
-                <Badge color="secondary" badgeContent={3} showZero>
-                  <ShoppingCartOutlinedIcon />
-                </Badge>
-              </div>
-              <div>
+            <div>
+              <Badge color="secondary" badgeContent={3} showZero>
+                <ShoppingCartOutlinedIcon />
+              </Badge>
+            </div>
+            <div className="Shopping1">
                 <PersonOutlineOutlinedIcon />
-              </div>
             </div>
-          </nav>
-        </header>
+          </div>
+        </nav>
+      </header>
     </div>
   );
 }
