@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +16,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.exciting{
+.exciting {
   display: flex;
   justify-content: space-between;
 }
@@ -23,39 +27,41 @@
   top: 144px;
   border-radius: 0px;
 }
-.excitinag{
-  background: #E9F2F9;
+.excitinag {
+  background: #e9f2f9;
   width: 480px;
   height: 73px;
   padding: 3px;
   /* opacity: 0.1; */
-  color:#247CC0;
-  
+  color: #247cc0;
 }
-h1{
+h1 {
   font-size: 50px;
   font-family: Hind Silieuri;
   margin: 10px 0;
 }
-.span1{
-  color: #030D15;
-  font-weight:800;
+.span1 {
+  color: #030d15;
+  font-weight: 800;
   font-size: 20px;
   margin-right: 10px;
 }
-.span2{
+.span2 {
   text-decoration: line-through;
+}
+.b > p  {
+  margin-bottom: 20px;
 }
 .b {
   display: flex;
   flex-direction: column;
   padding: 30px 0 0 80px;
 }
-.button{
+.button {
   width: 150px;
   height: 50px;
   margin-right: 10px;
-  background: #247CC0;
+  background: #247cc0;
   border: 0;
   color: #fff;
   cursor: pointer;
@@ -63,20 +69,20 @@ h1{
 .box > img {
   width: 100%;
 }
-.Favorite{
-  color: #C72535;
+.Favorite {
+  color: #c72535;
   margin-bottom: 0;
   text-transform: uppercase;
 }
-.menyo{
+.menyo {
   display: flex;
-  background:#fff;
+  background: #fff;
   justify-content: space-between;
 }
 .menyo img {
   height: 100%;
 }
-.uli{
+.uli {
   list-style: none;
   display: flex;
 }
@@ -86,18 +92,17 @@ h1{
   margin: 0 10px;
   color: black;
   border-bottom: 3px solid transparent;
-  transform: .9s;
-  
+  transform: 0.9s;
 }
-.uli > li{
+.uli > li {
   display: flex;
   align-items: center;
 }
 
-.uli li a:hover{
+.uli li a:hover {
   border-bottom: 3px solid black;
 }
-.ikoka{
+.ikoka {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -127,4 +132,78 @@ h1{
   to {
     transform: rotate(360deg);
   }
+}
+.Rectangle {
+  height: 237px;
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08),
+    0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083),
+    0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886),
+    0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04),
+    0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114),
+    0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+  display: flex;
+  padding: 76px 118px;
+}
+.Rectangle > div {
+  height: 85.00086212158203px;
+  width: 904px;
+  display: flex;
+  justify-content: center;
+}
+.Recent_Product {
+  padding: 110px 0 0 0;
+  display: flex;
+}
+.Recent_Product > div {
+  position: relative;
+  width: 25%;
+}
+.Recent_Product img {
+  width: 100%;
+}
+.Shopping{
+  position: absolute;
+  right: -20px;
+  top: -21px;
+  border: 2px solid #F1F1F1;
+  border-radius: 50%;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+}
+.div1{
+  display: flex;
+  background: #247cc0;
+}
+h2{
+width: 172px;
+height: 40px;
+left: 522px;
+top: 1118px;
+
+font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 40px;
+text-align: center;
+color: #030D15;
+}
+.standard{
+  padding: 30px 15px;
+}
+.standard > p {
+  padding-bottom: 20px;
+}
+.StarIcon{
+  margin-top: 10px;
+}
+.StarIcon1{
+  color: #C72535;
+}
+.StarIcon11{
+  color: #F4F9FC;
 }

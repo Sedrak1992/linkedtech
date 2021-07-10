@@ -4,7 +4,7 @@ function Exciting() {
   return (
     <section className="exciting">
       <div  className="box b">
-        <p className='Favorite'>Favorite brands</p>
+        <spam className='Favorite'>Favorite brands</spam>
         <h1>
           <span className="excitinag">An exciting place <br /></span>
           for the whole family <br />
